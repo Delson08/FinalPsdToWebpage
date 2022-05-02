@@ -1,0 +1,1464 @@
+ img {
+  padding: 5px;
+  width: 100px;
+  margin-left: 100px;
+}
+/* Add a black background color t`o the top navigation */
+.topnav {
+  background-color: #cde3e7;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.6;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+}
+
+.topnav-right{
+  float: right;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #0073c0;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 1.3vw;
+margin-top: 10px;
+margin-right: 2px;
+font-family: "Times New Roman", Times, serif;
+}
+.login{
+  background-color: gray;
+  position: relative;
+  color: white;
+  border:none;
+  box-sizing: border-box;
+  padding: 5px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 3px;
+} 
+.login:hover{
+  background-color: rgb(35, 147, 223);
+  color: black;
+}
+
+.signup {
+  background-color: #4b4f50;
+  color: white;
+  border:none;
+  padding: 5px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 50px;
+  border-radius: 3px;
+}
+.signup:hover{
+  background-color: rgb(35, 147, 223);
+  color: black;
+}
+.Amazon-section{
+  display: flex;
+  background-image: url('img/back1.png')  ,url('img/back2.png');
+  background-size: 950px, 1000px;
+  display: block;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 650px;
+  width: 1000px;
+  overflow: hidden;
+}
+.Amazon-1{
+  position: absolute;
+  top: 50px;
+}
+h1{
+  font-size: medium;
+  font-style: normal;
+  font-size: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  margin-left: 100px;
+  line-height: 0.5;
+  color:#ffffff;
+  margin-top: 100px; 
+}
+.Signup-1{
+  position: absolute;
+  top: 275px;
+  left: 93px;
+}
+p1{
+  font-style: normal;
+  font-size: 15px;
+  color:#ffffff;
+  line-height: 0.5cm;
+  }
+.get{
+  background-color: #565656;
+  border: none;
+  font-size: 10px;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.Discover-section{
+  display: flex;
+}
+.Discover-1{
+  background-image: url('img/bg1.png');
+  position: absolute;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  margin-top: -150px;
+  height: 900px;
+  width: 500cm;
+}
+.btn-lost{
+  background-image: url('img/Rounded\ Rectangle\ 11.png');
+  background-size: 20vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 60%;
+  margin-top:  5%;
+  height: 500px;
+  width: 100%;
+}
+.btn-refund{
+  background-image: url('img/Rounded\ Rectangle\ 2.png');
+  background-size: 20vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 60%;
+  margin-top:  9%;
+  height: 500px;
+  width: 100%;
+}
+.btn-inbound{
+  background-image: url('img/Rounded\ Rectangle\ 1.png');
+  background-size: 20vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 60%;
+  margin-top:  16.3%;
+  height: 500px;
+  width: 100%;
+}
+.losttxt{
+  background-image: url('img/Lost\ &\ Damaged\ Units.png');
+  background-size: 10vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* overflow: hidden; */
+  position: absolute;
+  margin-left: 62%;
+  margin-top:  7%;
+  height: 500px;
+  width: 100%;
+}
+.plus-icon{
+  background-image: url('img/plus.png');
+  background-size: 0.5vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* overflow: hidden; */
+  position: absolute;
+  margin-left: 78%;
+  margin-top:  7%;
+  height: 500px;
+  width: 100%;
+}
+.refundtxt1{
+  background-image: url('img/Refunds\ &\ Mishandled\ Returns.png');
+  background-size: 10vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* overflow: hidden; */
+  position: relative;
+  margin-left: 62%;
+  margin-top:  11%;
+  height: 500px;
+  width: 100%;
+}
+.minimize-icon{
+  background-image: url('img/min.png');
+  background-size: 0.5vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* overflow: hidden; */
+  position: absolute;
+  margin-left: 78%;
+  margin-top:  11.3%;
+  height: 500px;
+  width: 100%;
+}
+.line1{
+  background-image: url('img/line1.png');
+  background-size: 17vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* overflow: hidden; */
+  position: absolute;
+  margin-left: 61.5%;
+  margin-top:  12%;
+  height: 500px;
+  width: 100%;
+}
+
+.refundtxt3{
+  background-image: url('img/Refund\ issued.png');
+  background-size: 15vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* overflow: hidden; */
+  position: absolute;
+  margin-left: 62%;
+  margin-top:  13%;
+  height: 500px;
+  width: 100%;
+}
+.inboundtxt{
+  background-image: url('img/Lost\ Inbound\ Shipment.png');
+  background-size: 10vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* overflow: hidden; */
+  position: absolute;
+  margin-left: 62%;
+  margin-top:  18%;
+  height: 500px;
+  width: 100%;
+}
+.plus-icon1{
+  background-image: url('img/plus.png');
+  background-size: 0.5vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* overflow: hidden; */
+  position: absolute;
+  margin-left: 78%;
+  margin-top:  18.3%;
+  height: 500px;
+  width: 100%;
+}
+.discovertxt{
+  font-size: medium;
+  font-style: normal;
+  font-size: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-left: 100px;
+  line-height: 0.5;
+  color:#276280;
+  position: absolute;
+  margin-top: 30vh;
+  left: 16px;
+}
+
+.started{
+  margin-top: 400px;
+  margin-left: 200px;
+  background-color: #565656;
+  border: none;
+  font-size: 10px;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.picture-1{
+  display: flex;
+}
+.picture-2{
+  background-image: url('img/picture1.png');
+  background-size: 50vw 40vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  padding: 5px;
+  opacity: .6;
+}
+.picture-3{
+  background-image: url('img/picture2.png');
+  background-size: 50vw 40vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  padding: 5px;
+  opacity: .8;
+}
+.picture-4{
+  background-image: url('img/picture3.png');
+  background-size: 100vw 40vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  padding: 5px;
+  opacity: 2;
+}
+.picture-5{
+  background-image: url('img/picture4.png');
+  background-size: 39vw 25vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  background-position: 1000px bottom;
+  height: 600px;
+  width: 100%;
+  padding: 5px;
+  opacity: 1;
+}
+.picture-6{
+  background-image: url('img/picture5.png');
+  background-size: 25vw 15vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  background-position: right bottom;
+  height: 600px;
+  width: 100%;
+  padding: 5px;
+  opacity: 1;
+}
+h3{
+  font-size: medium;
+  font-style: normal;
+  font-size: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-left: 100px;
+  line-height: 0.5;
+  color:#ffffff;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+} 
+p2{
+  font-size:small;
+  font-style:normal;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  margin-left: 100px;
+  position: absolute;
+  line-height: 2vh;
+  top: 150px;
+}
+p3{
+  font-size:small;
+  font-style:normal;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  margin-left: 100px;
+  position: absolute;
+  line-height: 2vh;
+  top:320px;
+}
+p4{
+  font-size:small;
+  font-style:normal;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  margin-left: 100px;
+  position: absolute;
+  line-height: 2vh;
+  top: 450px;
+}
+strong{
+  font-size: 20px;
+}
+h4{
+  font-size: medium;
+  font-style: normal;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-left: 100px;
+  line-height: 0.5;
+  color:#ffffff;
+  position: absolute;
+  margin-right: 50px;
+  bottom: 50px;
+  right: 8px;
+}
+p5{
+  font-size: 16px;
+  font-style: normal;
+  color: #ffffff;
+  margin-right: 50px;
+  bottom: 50px;
+  right: 10px;
+  position: absolute;
+
+}
+.set{
+  background-color: #565656;
+  border: none;
+  font-size: 10px;
+  color: #ffffff;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 14px;
+  margin-right: 40px;
+  bottom: 20px;
+  right: 8px;
+}
+.tools-section{
+  display: flex;
+}
+.tool{
+  background-image: url('img/bg1.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  height: 600px;
+  width: 2000cm;
+}
+.ourtools{
+  font-size: large;
+  font-style: normal;
+  font-size: 70px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 800px;
+  margin-top: 80px; 
+  line-height: 0.5;
+  color: rgb(29, 118, 153);
+  display: inline-block;
+}
+.refund{
+background-image: url('img/Frame.png');
+background-size:25vw 25vw;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 10% 800%;
+height: 500px;
+width: 2000px;
+position: absolute;
+}
+.shape1{
+background-image: url('img/shape1.png');
+background-size:9vw 9vw;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 17% 70%;
+height: 500px;
+width: 2000px;
+position: absolute;
+}
+.refundtxt{
+  font-size: large;
+  font-style: normal;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 320px;
+  margin-top: 430px;
+  text-align: center;
+  line-height: 0.5;
+  color: rgb(29, 118, 153);
+  display: inline-block;
+}
+.weights{
+  background-image: url('img/Frame.png');
+  background-size:25vw 25vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 35% 800%;
+  height: 500px;
+  width: 2000px;
+  position: absolute;
+}
+.shape2{
+background-image: url('img/Shape2.png');
+background-size:9vw 9vw;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 38% 70%;
+height: 500px;
+width: 2000px;
+position: absolute;
+}
+.weighttxt{
+  font-size: large;
+  font-style: normal;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 680px;
+  margin-top: 430px;
+  text-align: center;
+  line-height: 0.5;
+  color: rgb(72, 77, 78);
+  display: inline-block;
+}
+.heat{
+  background-image: url('img/Frame.png');
+  background-size:25vw 25vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 60% 800%;
+  height: 500px;
+  width: 2000px;
+  position: absolute;
+}
+.shape3{
+background-image: url('img/Shape3.png');
+background-size:9vw 9vw;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 59% 70%;
+height: 500px;
+width: 2000px;
+position: absolute;
+}
+.heattxt{
+  font-size: large;
+  font-style: normal;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 1120px;
+  margin-top: 430px;
+  text-align: center;
+  line-height: 0.5;
+  color: #b6c0c7;
+  display: inline-block;
+}
+
+.vendor{
+  background-image: url('img/Frame.png');
+  background-size:25vw 25vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 85% 800%;
+  height: 500px;
+  width: 2000px;
+  position: absolute;
+}
+.shape4{
+background-image: url('img/Shape\ 4.png');
+background-size:9vw 9vw;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 80% 70%;
+height: 500px;
+width: 100%;
+position: absolute;
+}
+.vendortxt{
+  font-size: large;
+  font-style: normal;
+  font-size: 20PX;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 1420px;
+  margin-top: 430px;
+  text-align: center;
+  line-height: 0.5;
+  color: rgb(29, 118, 153);
+  display: inline-block;
+} 
+.client-section{
+  display: flex;
+}
+.frame1{
+  background-image: url('img/Frame1.png');
+  background-size: 50vw 50vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  height: 500px;
+  width: 100%;
+  padding: 5px;
+}
+.layer{
+  background-image: url('img/layer.png');
+  background-size: 20vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right top;
+  height: 500px;
+  width: 100%;
+}
+.clients-say{
+  font-size: large;
+  font-style: normal;
+  font-size: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 100px;
+  margin-top:  5vw;
+  text-align: center;
+  line-height: 0.5;
+  color: #276280;
+  display: inline-block;
+}
+.btn{
+  background-image: url('img/Btn.png');
+  background-size: 20vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: absolute;
+  margin-top:-7%;
+  margin-left: 62%;
+  height: 500px;
+  width: 100%; 
+}
+.line{
+  background-image: url('img/Line.png');
+  background-size: 1400px;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  margin-top: 10%;
+  margin-left: 6%;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+}
+.testimonials{
+  font-size: small;
+  font-style: normal;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 100px;
+  text-align: center;
+  line-height: 0.5;
+  color:white;
+  display: inline-block;
+  margin-top: 60px;
+}
+.excellent{
+  font-size: medium;
+  font-style: normal;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 160px;
+  line-height: 0.5;
+  color: #333333;
+  display: inline-block;
+}
+.excellent-star{
+  background-image: url('img/star.png');
+  background-size: 9vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 125px;
+  height: 500px;
+  width: 100%; 
+}
+.review{
+  font-size: small;
+  font-style: normal;
+  font-size: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 153px;
+  line-height: 0.3;
+  color:#333333;
+  display: inline-block;
+}
+.pilot{
+  font-size: medium;
+  font-style: normal;
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 165px;
+  line-height: 0.3;
+  color:#333333;
+  display: inline-block;
+}
+.arrowleft{
+  background-image: url('img/arrowleft.png');
+  background-size: 1vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 19% 52%;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+}
+.rectangle-1{
+  background-image: url('img/Rectangle.png');
+  background-size: 12vw 10vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 24% 60%;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+}
+.reviewstar-1{
+  background-image: url('img/star.png');
+  background-size: 6vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 24% 45%;
+  position: absolute;
+  height: 500px;
+  width: 100%; 
+}
+.review-1{
+  font-style: normal;
+  font-size: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 230px;
+  margin-left: 570px;
+  line-height: 0.3;
+  color:#333333;
+  display: inline-block;
+}
+.reviewtxt-1{
+  font-style: normal;
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 430px;
+  line-height: 0.5;
+  color:#333333;
+  display: inline-block;
+}
+.rectangle-2{
+  background-image: url('img/Rectangle.png');
+  background-size: 12vw 10vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 45% 60%;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+}
+.reviewstar-2{
+  background-image: url('img/star.png');
+  background-size: 6vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 44% 45%;
+  position: absolute;
+  height: 500px;
+  width: 100%; 
+}
+.review-2{
+  font-style: normal;
+  font-size: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 230px;
+  margin-left: 915px;
+  line-height: 0.3;
+  color:#333333;
+  display: inline-block;
+}
+.reviewtxt-2{
+  font-style: normal;
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 790px;
+  line-height: 0.5;
+  color:#333333;
+  display: inline-block;
+}
+.rectangle-3{
+  background-image: url('img/Rectangle.png');
+  background-size: 12vw 10vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 68% 60%;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+}
+.reviewstar-3{
+  background-image: url('img/star.png');
+  background-size: 6vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 65% 45%;
+  position: absolute;
+  height: 500px;
+  width: 100%; 
+}
+.review-3{
+  font-style: normal;
+  font-size: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 230px;
+  margin-left: 1300px;
+  line-height: 0.3;
+  color:#333333;
+  display: inline-block;
+}
+.reviewtxt-3{
+  font-style: normal;
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 1180px;
+  line-height: 0.5;
+  color:#333333;
+  display: inline-block;
+}
+.arrowright{
+  background-image: url('img/arrowright.png');
+  background-size: 1vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 75% 52%;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+}
+.Register-section{
+  display:flex;
+}
+.first-bg{
+  background-image: url('img/bg1.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  height: 600px;
+  width: 2000cm;
+  position: relative;
+}
+.second-bg{
+  background-image: url('img/frameregister.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  height: 600px;
+  width: 20000cm;
+  position: absolute;
+}
+.first-section{
+  background-image: url('img/Layer13.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  height: 600px;
+  width: 700px;
+  position: absolute;
+
+}
+.second-section{
+  background-image: url('img/Frame\ copy.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  height: 605px;
+  width: 700px;
+  position: absolute;
+}
+.Registertxt{
+  font-size: large;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 1300px;
+  margin-top:  4vw;
+  line-height: 0.5;
+  color: #276280;
+  display: inline-block;
+   position: absolute;
+  
+}
+.fullname{
+  background-image: url('img/promocode\ rectangle.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 50px;
+  width: 500px;
+}
+.nameicon{
+  background-image: url('img/name\ icon.png');
+  background-size: 1vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.nametxt{
+  background-image: url('img/Full\ Name.png');
+  background-size: 2.5vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 8px
+}
+.email{
+  background-image: url('img/promocode\ rectangle.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 50px;
+  width: 500px;
+  margin-top:35px ;
+
+}
+.emailicon{
+  background-image: url('img/email\ icon.png');
+  background-size: 1vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.emailtxt{
+  background-image: url('img/Emailtxt.png');
+  background-size: 24%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 1px
+}
+.phone{
+  background-image: url('img/promocode\ rectangle.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 50px;
+  width: 500px;
+  margin-top:70px ;
+
+}
+.phoneicon{
+  background-image: url('img/phone\ icon.png');
+  background-size: .8vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.phonetxt{
+  background-image: url('img/PhoneNumbertxt.png');
+  background-size: 3.5vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 15px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+.password{
+  background-image: url('img/promocode\ rectangle.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 50px;
+  width: 500px;
+  margin-top:103px ;
+
+}
+.passwordicon{
+  background-image: url('img/password\ icon.png');
+  background-size: .8vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.passwordtxt{
+  background-image: url('img/Passwordtext.png');
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 15px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+.confirm{
+  background-image: url('img/promocode\ rectangle.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 50px;
+  width: 500px;
+  margin-top:133px ;
+
+}
+.confirmicon{
+  background-image: url('img/confirmpassword.png');
+  background-size: .8vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 17px;
+}
+.confirmtxt{
+  background-image: url('img/password\ text.png');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 15px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 6.5px;
+}
+.referral{
+  background-image: url('img/promocode\ rectangle.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 50px;
+  width: 500px;
+  margin-top:165px ;
+}
+.referralicon{
+  background-image: url('img/promo\ code\ icon.png');
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 181px;
+}
+.referraltxt{
+  background-image: url('img/Referral\ _\ Promo\ Code.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  margin-left: 55px;
+  margin-top: 183px;
+}
+.captchaicon{
+  background-image: url('img/captcha.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 220px;
+}
+.submiticon{
+  background-image: url('img/Btnsubmit.png');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 265px;
+ 
+}
+.submittxt{
+  background-image: url('img/SUBMITtxt.png');
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  margin-left: 88px;
+  margin-top: 283px;
+}
+.Sellerhelp-section{
+  display: flex;
+
+}
+.latesttxt{
+  background-image: url('img/Latest\ Seller\ Help.png');
+  background-size:contain ;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  margin-left: 88px;
+  margin-top: 120px;
+}
+.lineviewmore{
+  background-image: url('img/viewmoreLine.png');
+  background-size:contain ;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 100px;
+  width: 1500px;
+  margin-left: 88px;
+  margin-top: 150px;
+}
+.btnviewmore{
+  background-image: url('img/Btnviewmoreicon.png');
+  background-size:contain ;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  margin-left: 1400px;
+  margin-top: 50px;
+}
+.viewmoretxt{
+  background-image: url('img/view\ more\ txt.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  margin-left: 1450px;
+  margin-top: 77px;
+}
+.item1{
+  background-image: url('img/Item1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+.item2{
+  background-image: url('img/Item2.png');
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  margin-left: 550px;
+  margin-top: 200px;
+}
+.item3{
+  background-image: url('img/Item3.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  margin-left: 850px;
+  margin-top: 190px;
+}
+.item4{
+  background-image: url('img/Item4.png');
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  margin-left: 1150px;
+  margin-top: 200px;
+}
+.footer{
+  display: flex;
+ 
+}
+ .frame2{
+  background-image: url('img/bgfooter.png'); 
+  background-size: contain 50vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 30%;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+} 
+.logo1{
+  background-image: url('img/footerlogo.png'); 
+  background-size:9vw 5vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 100px;
+  margin-top:  2vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.subscribetxt{
+  background-image: url('img/Subscribe\ to\ our\ newsletter\ txt.png'); 
+  background-size:14vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 100px;
+  margin-top:  8vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.line2{
+  background-image: url('img/Linefooter.png'); 
+  background-size:80vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 100px;
+  margin-top:  12vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.twentytxt{
+  background-image: url('img/copyright.png'); 
+  background-size:15vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 100px;
+  margin-top:  13vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.howtxt{
+  background-image: url('img/How\ it\ works\ Pricing\ About.png'); 
+  background-size:5vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left:40%;
+  margin-top:  3vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.faqpng{
+  background-image: url('img/FAQ\ Testimonials\ Contact\ Us.png'); 
+  background-size:5vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left:40%;
+  margin-top:  7vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.sellertxt{
+  background-image: url('img/Seller\ Help\ Login\ Referral\ Register\ Referral.png'); 
+  background-size:7vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left:55%;
+  margin-top:  3vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.follow{
+  background-image: url('img/Follow\ us.png'); 
+  background-size:4vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left:75%;
+  margin-top:  3vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.twitter{
+  background-image: url('img/twitter.png'); 
+  background-size:1.5vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left:75%;
+  margin-top:  4vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.fb{
+  background-image: url('img/fb.png'); 
+  background-size:1.5vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left:77%;
+  margin-top:  4vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.insta{
+  background-image: url('img/insta.png'); 
+  background-size:1.5vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left:79%;
+  margin-top:  4vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.linked{
+  background-image: url('img/linkedIn.png'); 
+  background-size:1.5vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left:81%;
+  margin-top:  4vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+.yt{
+  background-image: url('img/youtube.png'); 
+  background-size:1.5vw;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: absolute;
+  margin-left:83%;
+  margin-top:  4vw;
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
