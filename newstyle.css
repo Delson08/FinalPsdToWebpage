@@ -1,0 +1,524 @@
+
+/* CSS for 480p */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media only screen and (min-width:480px) {
+  .header-section{
+    display: flex;
+  }
+  .header1{
+    background-image: url('newimg/logo\ bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    padding: 10px 0;
+    /* margin-left: 60%;
+    margin-top:  9%; */
+    height: 500px;
+    width: 100%;
+    
+  }
+  .header2{
+    background-image: url('newimg/Textlogo.png');
+    background-size: 14%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 3% 2%;
+    height: 500px;
+    width: 100%;
+    
+  }
+  .header3{
+    background-image: url('newimg/How\ it\ works\ \ \ \ \ FAQ\ \ \ \ \ Testimonials\ \ \ \ \ Contact\ Us\ \ \ \ \ Seller.png');
+    background-size: 52%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 42% 6%;
+    height: 500px;
+    width: 100%;
+  }
+  .header4{
+    background-image: url('newimg/Btn1.png');
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 84% 5%;
+    height: 500px;
+    width: 100%;
+  }
+  .btn1{
+    background-image: url('newimg/Logintxt.png');
+    background-size: 7%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 82% 6%;
+    height: 500px;
+    width: 100%;
+  }
+  .header5{
+    background-image: url('newimg/Btn2.png');
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 99% 5%;
+    height: 500px;
+    width: 100%;
+  }
+  .btn2{
+    background-image: url('newimg/Signuptxt.png');
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 97% 6%;
+    height: 500px;
+    width: 100%;
+  }
+  .Amazon{
+    background-image: url('newimg/Amazon\ Owes.png');
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 3% 17%;
+    height: 500px;
+    width: 100%;
+  }
+  .Signup{
+    background-image: url('newimg/Sign\ up\ now.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 5% 35%;
+    height: 500px;
+    width: 100%;
+  }
+  .getBtn{
+    background-image: url('newimg/getBtn.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 6% 45%;
+    height: 500px;
+    width: 100%;
+  }
+  .gettxt{
+    background-image: url('newimg/GET\ MY.png');
+    background-size: 11%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 7.5% 45%;
+    height: 500px;
+    width: 100%;
+  }
+  .HowItWorks-section{
+    display: flex;
+  }
+  .bg2{
+    background-image: url('newimg/bg2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 0% 6.5%;
+    height: 4000px;
+    width: 100%;
+  }
+  .Discover{
+    background-image: url('newimg/Discover\ today\ .png');
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 8% 35%;
+    height: 1000px;
+    width: 100%;
+  }
+  .getStarted{
+    background-image: url('newimg/GET\ STARTED.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 14% 41.5%;
+    height: 1000px;
+    width: 100%;
+  }
+  .LostDamaged{
+    background-image: url('newimg/Lost&damaged.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 80% 32%;
+    height: 1000px;
+    width: 100%;
+  }
+  .Refund{
+    background-image: url('newimg/refund&mishandled.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 80% 36%;
+    height: 1000px;
+    width: 100%;
+  }
+  .LostInbound{
+    background-image: url('newimg/Lost&Inbound.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 80% 40.8%;
+    height: 1000px;
+    width: 100%;
+  }
+  .WhyChoose-section{
+    display: flex;
+  }
+  .whyBg{
+    background-image: url('newimg/rectangle14new.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 0% 56%;
+    height: 1000px;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .whytxt{
+    background-image: url('newimg/Why\ choose\ us.png');
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 8% 47%;
+    height: 1000px;
+    width: 100%;
+   
+  }
+  .EasyQuick{
+    background-image: url('newimg/Easy\,\ Quick\ .png');
+    background-size: 38%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 10% 57%;
+    height: 1000px;
+    width: 100%;
+    /* background-color: red; */
+  }
+  
+  .SetAppointment{
+    background-image: url('newimg/SET\ AN\ APPOINTMENT.png');
+    background-size: 48%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 100% 57%;
+    height: 1000px;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .OurTools-section{
+    display: flex;
+  }
+  .ourBg{
+    background-image: url('newimg/Our\ Tools1.png');
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 100% 17%;
+    height: 4000px;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .item1{
+    background-image: url('newimg/Item1.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 5% 18%;
+    height: 4000px;
+    width: 100%;
+  }
+  .item2{
+    background-image: url('newimg/Item2.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 35% 18%;
+    height: 4000px;
+    width: 100%;
+  }
+  .item3{
+    background-image: url('newimg/Item3.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 65% 18%;
+    height: 4000px;
+    width: 100%;
+  }
+  .item4{
+    background-image: url('newimg/Item3.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 95% 18%;
+    height: 4000px;
+    width: 100%;
+  }
+  .Clients-section{
+    display: flex;
+    height: 4000px;
+    width: 100%;
+  }
+  .framebg{
+    background-image: url('newimg/Frame2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 0% 25%;
+    height: 4000px;
+    width: 100%;
+   
+  }
+  .whyChoose{
+    background-image: url('newimg/What\ our\ clients\ say.png');
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 25% 22%;
+    height: 4000px;
+    width: 100%;
+  }
+  .moreTestimonials{
+    background-image: url('newimg/more\ testimonials1.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 78% 21.5%;
+    height: 4000px;
+    width: 100%;
+  }
+  .layerBg{
+    background-image: url('newimg/layer.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 100% 21.2%;
+    height: 4000px;
+    width: 100%;
+  }
+  .star1{
+    background-image: url('newimg/star1.png');
+    background-size: 24%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 6% 23.8%;
+    height: 4000px;
+    width: 100%;
+  }
+  .star2{
+    background-image: url('newimg/star2.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 37% 23.5%;
+    height: 4000px;
+    width: 100%;
+  }
+  .star3{
+    background-image: url('newimg/star3.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 66% 23.5%;
+    height: 4000px;
+    width: 100%;
+  }
+  .star4{
+    background-image: url('newimg/star4.png');
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 100% 23.5%;
+    height: 4000px;
+    width: 100%;
+  }
+  .Registration-section{
+    display: flex;
+    height: 5000px;
+    width: 100%;
+    
+  }
+  .framecopy{
+    background-image: url('newimg/Frame\ copy1.png');
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 77.5% 22%;
+    height: 5000px;
+    width: 100%;
+  }
+  .register{
+    background-image: url('newimg/promo\ code\ icon1.png');
+    background-size: 33%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 80% 22.5%;
+    height: 5000px;
+    width: 100%;
+  }
+  .Latest-section{
+    display: flex;
+  }
+  .sellerHelp{
+    background-image: url('newimg/latest.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 50%  27%;
+    height: 5000px;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .items{
+    background-image: url('newimg/Items.png');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 50%  27.5%;
+    height: 5000px;
+    width: 100%;
+  }
+  .Footer{
+    display: flex;
+  }
+  .newsletter{
+    background-image: url('newimg/Newsletter3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 0%  32%;
+    height: 5000px;
+    width: 100%;
+  }
+  .SNS{
+    background-image: url('newimg/Follow\ us.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    background-position: 90%  32%;
+    height: 5000px;
+    width: 100%;
+  }
+}
+ /* body{
+    
+   background-size: 480px;  
+} */
+.background-section{
+  display: flex;
+}
+.background1{
+  background-image: url('newimg/Layer\ 10.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: relative;
+  background-position: 0% 0%;
+  height: 1700px;
+  width: 100%;
+}
+.background2{
+  background-image: url('newimg/bg.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  position: relative;
+  background-position: 0% 0%;
+  height: 1700px;
+  width: 100%;
+} 
+ 
+/* ==============end CSS for 480px======================== */
+/* CSS for 980p */
+/* CSS for 980p */
+/* CSS for 980p */
